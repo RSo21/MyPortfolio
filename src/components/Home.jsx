@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import Navigation from './Navigation.jsx'
+import HomeMain from './HomeMain'
 
 
 
@@ -7,7 +7,7 @@ class Home  extends Component{
     render(){
         return(
             <>
-            <Navigation />
+            <HomeMain/>
             </>
         )
     }
