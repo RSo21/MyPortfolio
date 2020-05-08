@@ -1,3 +1,30 @@
+.nav-container{
+    width: 100vw;
+    z-index: 3;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
+    .nav{
+        margin-top: 2em;
+        margin-bottom: 0.5em;
+        
+        a{
+            font-size: 0.9em;
+            font-weight: 800;
+            letter-spacing: 0.2em; 
+            color: $color-primary;
+            text-decoration: none;
+            padding: 1em;
+    
+            &:hover{
+                border: 0.1em solid $color-primary;
+                background-color: $color-secondary;
+                padding: 0.9em;
+            }
+        }
+    }
+}
 
 
