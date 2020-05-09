@@ -1,5 +1,7 @@
 import React, { Component } from "react";
-import HomeMain from './HomeMain'
+import HomeMain from './HomeMain';
+import HomeFooter from './HomeFooter';
+import ScrollBtn from "./ScrollBtn";
 
 
 
@@ -8,6 +10,8 @@ class Home  extends Component{
         return(
             <>
             <HomeMain/>
+            <HomeFooter />
+            <ScrollBtn />
             </>
         )
     }
