@@ -4,7 +4,11 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-top: 6vh;
+    padding-top: 1vh;
+    
+    .carousel-title{
+        font-weight: 500;
+    }
     img{
         width: 40vw;
         height: auto;
@@ -13,5 +17,15 @@
     p{
         color: $color-primary;
         padding-top: 1.2em;
+
+        a{
+            color: $color-secondary;
+            font-weight: 800;
+
+            &:hover{
+                text-decoration: none;
+                color: white;
+            }
+        }
     }
 }
