@@ -1,0 +1,17 @@
+.carousel-item{
+    background-color: #1C4415;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 6vh;
+    img{
+        width: 40vw;
+        height: auto;
+        box-shadow: 0.3em 0.3em 1em black; 
+    }
+    p{
+        color: $color-primary;
+        padding-top: 1.2em;
+    }
+}
