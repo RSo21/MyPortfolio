@@ -1,0 +1,29 @@
+#skills{
+    .skills-title{
+        padding: 3em 0 1.5em;
+        font-weight: 600;
+        letter-spacing: 0.3em;
+        font-size: 2em;
+    }
+}
+
+.home-skills-icons-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    .home-skills-icons{
+        display: flex;
+        flex-direction: row;
+
+        .skills-icon{
+            padding: 1em 2.5em;
+
+            i{
+                font-size: 3em;
+                padding-bottom: 0.4em;
+            }
+        }
+    }
+}
