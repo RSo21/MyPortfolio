@@ -1,0 +1,50 @@
+.about-title{
+    font-size: 2em;
+    font-weight: 600;
+    padding: 1em 0;
+    letter-spacing: 0.3em;
+
+        @include mobile{
+        font-size: 1.5em;
+    }
+}
+
+.home-about-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    box-shadow: 0.4em 0.4em 1em black;
+
+    @include mobile{
+        flex-direction: column;
+    }
+
+    &::before{
+        background-image: url(./../../assets/kara-eads-FbXp5aOX-fs-unsplash.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom:0;
+        left: 0;
+        content: "";
+        z-index: 0;
+        display: block
+    }
+
+    .home-about-past,
+    .home-about-present,
+    .home-about-future{
+        position: relative;
+        z-index: 1;
+        background-color: white;
+        padding: 1em 2em;
+        margin-right: 1em;
+    }
+}
+ 
