@@ -48,7 +48,6 @@ class HomeMain extends Component {
                             <p>Junior Front-end developer</p>
                             <p>looking for a first job</p>
                         </div>
-
                     </div>
                 </div>     
             )
