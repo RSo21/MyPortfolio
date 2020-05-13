@@ -4,10 +4,10 @@ import HomeCarousel from "./HomeCarousel";
 const HomeMyPortfolio  = () => {
 
     return(
-        <>
-            <p id="portfolio">MY PORTFOLIO</p>
+        <div id="portfolio">
+            <p className="portfolio-title">MY PORTFOLIO</p>
             <HomeCarousel />
-        </>
+        </div>
     
     )
 }
