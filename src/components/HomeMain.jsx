@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import Navigation from "./Navigation";
 import TypingEffect from "./TypingEffect";
 
-//import myPhoto from '../assets/DSC_0562.jpg';
+import myPhoto from '../assets/myPhoto.jpg';
 
 
 
@@ -39,7 +39,7 @@ class HomeMain extends Component {
                     <Navigation />
                     <div className="home-main-content">
                         <div className="home-main-image">
-                            {/* <img className="my-photo" src={myPhoto} alt="myPhoto"/> */}
+                            <img className="my-photo" src={myPhoto} alt="myPhoto"/>
 
                         </div>
                         <div className="home-main-text">

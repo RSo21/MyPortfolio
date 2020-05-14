@@ -2,5 +2,19 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 7vh;
+    box-shadow: 0.3em 0.3em 1em black;
+    height: 10vh;
+
+    @include mobile{
+        height: 6vh;
+    }
+
+    p{
+        margin-bottom: 0; 
+        font-size: 1em;
+
+        @include mobile{
+            font-size: 0.5em;
+        }
+    }
 }
