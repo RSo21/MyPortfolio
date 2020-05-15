@@ -1,25 +1,77 @@
 #contact{
+    position: relative;
+    z-index: 1;
+    width: 100vw;
+    height: 100vh;
+
+    @include mobile{
+        height: auto;
+    }
+
+    &::before{
+        background-image: url(./../../assets/quino-al-4SNUcHPiC8c-unsplash.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom:0;
+        left: 0;
+        content: "";
+        z-index: 0;
+        display: block;
+
+        @include mobile{
+            background-size: contain;
+        }
+    }
+
     .contact-title{
         font-size: 2em;
         font-weight: 600;
         padding: 3em 0 1em;
         letter-spacing: 0.3em;
+        position: relative;
+        z-index: 1;
     
         @include mobile{
             font-size: 1.5em;
         }
     }
-    .contact-element{
-        font-size: 1.5em;
-        letter-spacing: 0.2em;
+
+    .contact-container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        height: 50vh;
+        position: relative;
+        z-index: 1;
 
         @include mobile{
-            font-size: 1em;
+            height: auto;
         }
 
-        i{
-            font-size: 1.5em;
-            color: $color-secondary;
+        .contact-text{
+            font-size: 1.1em;
+
+            @include mobile{
+                font-size: 0.7em;
+            }
+        }
+
+        .contact-element{
+            font-size: 1.1em;
+
+    
+            @include mobile{
+                font-size: 0.7em;
+            }
+    
+            i{
+                font-size: 1.5em;
+                color: $color-secondary;
+            }
         }
     }
 }
