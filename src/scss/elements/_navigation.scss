@@ -1,3 +1,51 @@
+.mobile-nav{
+    height: 7vh;
+    width: auto;
+    display: flex;
+    position: fixed;
+    justify-content: flex-end;
+    align-items: flex-end;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: 3;
+    background-color: rgba(255, 255, 255, 0.9);
+
+    .icon-menu-nav{
+        padding-right: 2vw;
+        padding-bottom: 2.5vh;
+        width: 2em;
+        height: 2.5em;
+    }
+
+    .menu-mobile{
+        background-color: rgba(255, 255, 255, 0.9);
+
+        p{
+        text-align: left;
+        padding: 2em 0 0 1.4em;
+        opacity: 1;
+        font-weight: 800;
+
+        &:first-of-type{
+            padding-top: 0;
+        }
+
+            a{
+                color: $black;
+                font-size: 1em;
+                font-weight: 800;
+                text-decoration: none;
+
+                &:hover{
+                    color: $font-color-secondary;
+                }
+            }
+        }
+    }
+}
+
+
 .nav-container{
     width: 100vw;
     z-index: 3;

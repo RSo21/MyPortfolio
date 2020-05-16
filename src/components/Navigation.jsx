@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { slide as Menu } from "react-burger-menu";
+import {slide as Menu } from "react-burger-menu";
 import MenuIcon from "../assets/menu.png";
 
 
@@ -30,6 +30,13 @@ class Navigation extends Component {
         this.setState({ width: window.innerWidth });
     };
     
+
+    // handleClick() {
+    //     this.setState({
+    //         open: !this.state.open
+    //     });
+    // } 
+
     render(){
         const { width, navBackground, fontColor } = this.state;
         const isMobile = width <= 978;
@@ -39,8 +46,8 @@ class Navigation extends Component {
                 <div className="mobile-nav">
                     <div><img className = "icon-menu-nav" src = {MenuIcon} alt = "menuIcon"/>
                      </div>
-                     <Menu className = "menu-mobile" pageWrapId={"page-wrap"} isOpen={true} width={ 150 }>
-                         <p activeclass="active" spy="true" offset={50} duration={500}>
+                     <Menu className = "menu-mobile bm-overlay" pageWrapId={"page-wrap"} isOpen={true} width={ 170 }>
+                         <p activeclass="active" spy="true" offset={50} duration={500} id="page-wrap">
                             <a href="/">HOME</a>
                          </p>
                          <p activeclass="active" spy="true" offset={50} duration={500}>
