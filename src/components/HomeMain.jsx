@@ -31,6 +31,7 @@ class HomeMain extends Component {
         if(isMobile){
             return(
                 <>
+                <Navigation />
                 </>
             )
         }else{

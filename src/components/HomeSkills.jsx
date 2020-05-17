@@ -10,25 +10,25 @@ const HomeSkills  = () => {
                 <div className="home-skills-icons-column">
                     <div className="home-skills-icons">
                         <div className="skills-icon">
-                            <i class="fab fa-html5"></i>
+                            <i className="fab fa-html5"></i>
                             <p>HTML5</p>
                         </div>
                         <div className="skills-icon">
-                            <i class="fab fa-css3"></i>
+                            <i className="fab fa-css3"></i>
                             <p>CSS3</p>
                         </div>
                         <div className="skills-icon">
-                            <i class="fab fa-sass"></i>
+                            <i className="fab fa-sass"></i>
                             <p>Sass</p>
                         </div>
                     </div>
                     <div className="home-skills-icons skills-center">
                         <div className="skills-icon">
-                            <i class="fab fa-js"></i>
+                            <i className="fab fa-js"></i>
                             <p>JavaScript</p>
                         </div>
                         <div className="skills-icon">
-                            <i class="fab fa-github"></i>
+                            <i className="fab fa-github"></i>
                             <p>Github</p>
                         </div>
                     </div>                 
@@ -36,29 +36,29 @@ const HomeSkills  = () => {
                 <div className="home-skills-icons-column">
                     <div className="home-skills-icons">
                         <div className="skills-icon">
-                            <i class="fab fa-bootstrap"></i>
+                            <i className="fab fa-bootstrap"></i>
                             <p>Bootstrap</p>
                         </div>
                         <div className="skills-icon">
-                            <i class="fab fa-react"></i>
+                            <i className="fab fa-react"></i>
                             <p>React</p>
                         </div>
                         <div className="skills-icon">
-                            <i class="fab fa-slack"></i>
+                            <i className="fab fa-slack"></i>
                             <p>Slack</p>
                         </div>
                     </div>
                     <div className="home-skills-icons skills-center">
                         <div className="skills-icon">
-                            <i class="fab fa-trello"></i>
+                            <i className="fab fa-trello"></i>
                             <p>Trello</p>
                         </div>
                         <div className="skills-icon">
-                            <i class="fab fa-npm"></i>
+                            <i className="fab fa-npm"></i>
                             <p>npm</p>
                         </div>  
                         <div className="skills-icon">
-                            <i class="fab fa-gulp"></i>
+                            <i className="fab fa-gulp"></i>
                             <p>Gulp</p>
                         </div> 
                     </div> 
