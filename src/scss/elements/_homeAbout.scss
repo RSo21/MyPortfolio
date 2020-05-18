@@ -15,12 +15,14 @@
     align-items: center;
     justify-content: center;
     width: 100vw;
-    height: 100vh;
+    height: 80vh;
     position: relative;
+    z-index: 0;
     box-shadow: 0.4em 0.4em 1em black;
 
     @include mobile{
         flex-direction: column;
+        height: 130vh;
     }
 
     &::before{
@@ -44,7 +46,26 @@
         z-index: 1;
         background-color: white;
         padding: 1em 2em;
-        margin-right: 1em;
+        margin-right: 2em;
+        width: 20vw;
+        height: 50vh;
+        box-shadow: 0.3em 0.3em 1em black;
+
+        @include mobile{
+            width: 75vw;
+            height: auto;
+            margin-right: 0;
+            margin-bottom: 1.1em;
+        }
+
+        .about-text{
+            text-align: justify;
+            font-size: 1em;
+
+            @include mobile{
+                font-size: 0.5em;
+            }
+        }
     }
 }
  
