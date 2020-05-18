@@ -34,7 +34,6 @@ class HomeAbout  extends Component{
                         but I know that when I take up my first job I will give it 100%.
                         I believe that as a junior fronend developer I will have many development opportunities.
                         </p>
-
                     </div>
                 </div>
             </div>
