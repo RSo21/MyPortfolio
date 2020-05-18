@@ -1,6 +1,6 @@
 #contact{
     position: relative;
-    z-index: 1;
+    z-index: 0;
     width: 100vw;
     height: 100vh;
 
@@ -22,8 +22,9 @@
         display: block;
 
         @include mobile{
-            background-size: contain;
+            background-image: none;
         }
+
     }
 
     .contact-title{
@@ -36,6 +37,7 @@
     
         @include mobile{
             font-size: 1.5em;
+            padding: 2em 0 0.5em;
         }
     }
 
@@ -56,7 +58,7 @@
             font-size: 1.1em;
 
             @include mobile{
-                font-size: 0.7em;
+                font-size: 0.3em;          
             }
         }
 
@@ -65,7 +67,8 @@
 
     
             @include mobile{
-                font-size: 0.7em;
+                font-size: 0.3em;
+                line-height: 0.5em;
             }
     
             i{
