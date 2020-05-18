@@ -22,7 +22,8 @@
 
     @include mobile{
         flex-direction: column;
-        height: 130vh;
+        //height: 120vh;
+        height: auto;
     }
 
     &::before{
@@ -37,6 +38,10 @@
         content: "";
         z-index: 0;
         display: block
+    }
+
+    .home-about-past{
+        margin-top: 1.1em;
     }
 
     .home-about-past,

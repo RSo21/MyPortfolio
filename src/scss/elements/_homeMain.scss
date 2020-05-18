@@ -36,11 +36,21 @@
             border-radius: 50%;
             background-color: white;
 
+            @include mobile{
+                width: 14em;
+                height: 14em;
+            }
+
             .my-photo{
                 width: 19em;
                 height: 19em;
                 padding-top: 0.5em;
                 border-radius: 50%;
+
+                @include mobile{
+                    width: 13em;
+                    height: 13em;
+                }
             }
         }
 
