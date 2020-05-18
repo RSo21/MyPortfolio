@@ -2,7 +2,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    box-shadow: 0.3em 0.3em 1em black;
+    box-shadow: 0.05em 0.05em 1em inset grey;
     height: 10vh;
 
     @include mobile{
