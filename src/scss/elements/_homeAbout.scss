@@ -41,7 +41,11 @@
     }
 
     .home-about-past{
-        margin-top: 1.1em;
+
+        @include mobile{
+            margin-top: 1.1em;
+        }
+        
     }
 
     .home-about-past,
