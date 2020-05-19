@@ -22,7 +22,6 @@
 
     @include mobile{
         flex-direction: column;
-        //height: 120vh;
         height: auto;
     }
 
@@ -41,11 +40,9 @@
     }
 
     .home-about-past{
-
         @include mobile{
             margin-top: 1.1em;
-        }
-        
+        } 
     }
 
     .home-about-past,
@@ -60,6 +57,16 @@
         height: 50vh;
         box-shadow: 0.3em 0.3em 1em black;
 
+        p{
+            font-size: 1.6em;
+            padding: 0.3em 0;
+
+            @include mobile{
+                font-size: 1em;
+                padding: 0.1em 0;
+            }
+        }
+
         @include mobile{
             width: 75vw;
             height: auto;
@@ -69,10 +76,10 @@
 
         .about-text{
             text-align: justify;
-            font-size: 1em;
+            font-size: 1.3em;
 
             @include mobile{
-                font-size: 0.5em;
+                font-size: 0.7em;
             }
         }
     }

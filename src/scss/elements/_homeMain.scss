@@ -55,15 +55,18 @@
         }
 
         .home-main-text{
-            font-size: 1.4em;
+            font-size: 1.8em;
             padding-top: 1em;
 
+            @include mobile{
+                font-size: 1.2em;
+            }
+
             p{
-                //padding-top: 0.3em;
+                padding-top: 0.8em;
 
                 &:first-of-type{
-                    //color: $color-secondary;
-                    padding-top: 0.5em;
+                    padding-top: 0.9em;
                     font-weight: 600;
                     letter-spacing: 0.3em;
                 }
