@@ -27,10 +27,6 @@
         opacity: 1;
         font-weight: 800;
 
-        &:first-of-type{
-            padding-top: 0;
-        }
-
             a{
                 color: $black;
                 font-size: 1em;
@@ -38,7 +34,7 @@
                 text-decoration: none;
 
                 &:hover{
-                    color: $font-color-secondary;
+                    color: $color-secondary;
                 }
             }
         }
@@ -59,7 +55,7 @@
         margin-bottom: 0.5em;
         
         a{
-            font-size: 0.9em;
+            font-size: 1em;
             font-weight: 800;
             letter-spacing: 0.2em; 
             color: $color-primary;

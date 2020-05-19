@@ -48,7 +48,7 @@ class Navigation extends Component {
                      </div>
                      <Menu className = "menu-mobile bm-overlay" pageWrapId={"page-wrap"} isOpen={true} width={ 170 }>
                          <p activeclass="active" spy="true" offset={50} duration={500} id="page-wrap">
-                            <a href="/">HOME</a>
+                            <a href="#home">HOME</a>
                          </p>
                          <p activeclass="active" spy="true" offset={50} duration={500}>
                             <a href = "#about">ABOUT ME</a>
@@ -69,7 +69,7 @@ class Navigation extends Component {
             return(
                 <div className="nav-container" style={{backgroundColor: navBackground}}>
                     <div className= "nav">
-                        <a href="/" style={{color: fontColor}}>HOME</a>
+                        <a href="#home" style={{color: fontColor}}>HOME</a>
                         <a href = "#about" style={{color: fontColor}}>ABOUT ME</a>
                         <a href = "#skills" style={{color: fontColor}}>SKILLS</a>
                         <a href = "#portfolio" style={{color: fontColor}}>MY PORTFOLIO</a>
