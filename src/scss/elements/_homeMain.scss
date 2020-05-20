@@ -28,13 +28,13 @@
         height: 100vh;
         position: relative;
         z-index: 1;
-        color: white;
+        color: $background-primary;
 
         .home-main-image{
             width: 20em;
             height: 20em;
             border-radius: 50%;
-            background-color: white;
+            background-color: $background-primary;
 
             @include mobile{
                 width: 14em;

@@ -10,33 +10,33 @@
     .carousel-item{   
         padding-top: 2vh;   
         .carousel-title{
-                    font-weight: 500;
-                    font-size: 1.4em;
-                    padding-bottom: 1em;
-                }
-                img{
-                    width: 40vw;
-                    height: auto;
-                    box-shadow: 0.3em 0.3em 1em black; 
+            font-weight: 500;
+            font-size: 1.4em;
+            padding-bottom: 1em;
+        }
+        img{
+            width: 40vw;
+            height: auto;
+            box-shadow: 0.3em 0.3em 1em $black; 
             
-                    @include mobile{
-                        width: 60vw;
-                    }
-                }
-                p{
-                    color: $color-primary;
-                    font-size: 1.2em;
-                    padding-top: 2em;
+            @include mobile{
+                width: 60vw;
+            }
+        }
+            p{
+                color: $color-primary;
+                font-size: 1.2em;
+                padding-top: 2em;
             
-                    a{
-                        color: $color-secondary;
-                        font-weight: 800;
+            a{
+                color: $color-secondary;
+                font-weight: 800;
             
-                        &:hover{
-                            text-decoration: none;
-                            color: white;
-                        }
-                    }
+                &:hover{
+                    text-decoration: none;
+                    color: white;
                 }
+            }
+        }
     } 
 }

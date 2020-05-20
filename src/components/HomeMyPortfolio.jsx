@@ -8,7 +8,6 @@ const HomeMyPortfolio  = () => {
             <p className="portfolio-title">MY PORTFOLIO</p>
             <HomeCarousel />
         </div>
-    
     )
 }
 

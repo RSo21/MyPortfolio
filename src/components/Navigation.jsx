@@ -29,13 +29,6 @@ class Navigation extends Component {
     handleWindowSizeChange = () => {
         this.setState({ width: window.innerWidth });
     };
-    
-
-    // handleClick() {
-    //     this.setState({
-    //         open: !this.state.open
-    //     });
-    // } 
 
     render(){
         const { width, navBackground, fontColor } = this.state;
