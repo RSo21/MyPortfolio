@@ -15,7 +15,6 @@ class HomeAbout  extends Component{
                         I always felt that I would like to do something different, and then I discovered programming and that's what I would like to do.
                         In September 2019 I started JavaScript Developer: React intensive course organized by Coders Lab in Poznań, 
                         Poland, where I studied programming intensively.  </p>
-
                     </div>
                     <div className="home-about-present">
                         <p>THE PRESENT</p>
@@ -25,7 +24,6 @@ class HomeAbout  extends Component{
                         Every day I learn a lot of new things that motivate me to keep going.
                         I am actively looking for a job and I believe that I will start a new job soon.
                         </p>
-
                     </div>
                     <div className="home-about-future">
                         <p>THE FUTURE</p>

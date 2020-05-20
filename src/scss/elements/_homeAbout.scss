@@ -50,12 +50,12 @@
     .home-about-future{
         position: relative;
         z-index: 1;
-        background-color: white;
+        background-color: $background-primary;
         padding: 1em 2em;
         margin-right: 2em;
         width: 20vw;
         height: 50vh;
-        box-shadow: 0.3em 0.3em 1em black;
+        box-shadow: 0.3em 0.3em 1em $black;
 
         p{
             font-size: 1.6em;
