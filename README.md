@@ -1,7 +1,5 @@
 # My portfolio
 
-in progress
-
 Here is my portfolio where you can find out a bit about me and see my projects.
 
 
