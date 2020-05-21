@@ -20,6 +20,7 @@ Project is created with:
 * [React Scroll Up](https://www.npmjs.com/package/react-scroll-up-button)
 * [React Burger Menu](https://www.npmjs.com/package/react-burger-menu)
 * [React Bootstrap](https://react-bootstrap.github.io/)
+* [Typing Effect](https://www.npmjs.com/package/react-typing-effect)
 
 
 
