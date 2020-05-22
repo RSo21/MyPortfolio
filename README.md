@@ -37,6 +37,3 @@ To run this project, install it locally using npm:
 ## Demo
 
 Try this working demo: [My portfolio](https://rso21.github.io/MyPortfolio/)
-
-
-:) 
