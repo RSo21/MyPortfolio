@@ -29,7 +29,6 @@ import ScrollUpButton from "react-scroll-up-button";
                     <ScrollUpButton style={{backgroundColor: "#50A831", width: '1.5em', height: '1.5em'}} />
                 </div>
             )
-
         }else{
             return(
                 <div>
