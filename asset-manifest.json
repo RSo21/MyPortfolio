@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/MyPortfolio/static/css/main.1d77dfe1.chunk.css",
-    "main.js": "/MyPortfolio/static/js/main.ecc3c6eb.chunk.js",
-    "main.js.map": "/MyPortfolio/static/js/main.ecc3c6eb.chunk.js.map",
+    "main.css": "/MyPortfolio/static/css/main.11136939.chunk.css",
+    "main.js": "/MyPortfolio/static/js/main.9d47d6e9.chunk.js",
+    "main.js.map": "/MyPortfolio/static/js/main.9d47d6e9.chunk.js.map",
     "runtime-main.js": "/MyPortfolio/static/js/runtime-main.09a4418b.js",
     "runtime-main.js.map": "/MyPortfolio/static/js/runtime-main.09a4418b.js.map",
     "static/css/2.69121389.chunk.css": "/MyPortfolio/static/css/2.69121389.chunk.css",
-    "static/js/2.ea6e2a77.chunk.js": "/MyPortfolio/static/js/2.ea6e2a77.chunk.js",
-    "static/js/2.ea6e2a77.chunk.js.map": "/MyPortfolio/static/js/2.ea6e2a77.chunk.js.map",
+    "static/js/2.fdb74a0b.chunk.js": "/MyPortfolio/static/js/2.fdb74a0b.chunk.js",
+    "static/js/2.fdb74a0b.chunk.js.map": "/MyPortfolio/static/js/2.fdb74a0b.chunk.js.map",
     "index.html": "/MyPortfolio/index.html",
-    "precache-manifest.83839ed21df48c7b16e088e5415fd4f1.js": "/MyPortfolio/precache-manifest.83839ed21df48c7b16e088e5415fd4f1.js",
+    "precache-manifest.6a65fd334698ef208da4f1e2a455068f.js": "/MyPortfolio/precache-manifest.6a65fd334698ef208da4f1e2a455068f.js",
     "service-worker.js": "/MyPortfolio/service-worker.js",
     "static/css/2.69121389.chunk.css.map": "/MyPortfolio/static/css/2.69121389.chunk.css.map",
-    "static/css/main.1d77dfe1.chunk.css.map": "/MyPortfolio/static/css/main.1d77dfe1.chunk.css.map",
-    "static/js/2.ea6e2a77.chunk.js.LICENSE.txt": "/MyPortfolio/static/js/2.ea6e2a77.chunk.js.LICENSE.txt",
+    "static/css/main.11136939.chunk.css.map": "/MyPortfolio/static/css/main.11136939.chunk.css.map",
+    "static/js/2.fdb74a0b.chunk.js.LICENSE.txt": "/MyPortfolio/static/js/2.fdb74a0b.chunk.js.LICENSE.txt",
     "static/media/carbonFootprint.png": "/MyPortfolio/static/media/carbonFootprint.3018d3dd.png",
     "static/media/catGame.png": "/MyPortfolio/static/media/catGame.51ac7f34.png",
     "static/media/giveAwayApp.png": "/MyPortfolio/static/media/giveAwayApp.b4434541.png",
@@ -26,8 +26,8 @@
   "entrypoints": [
     "static/js/runtime-main.09a4418b.js",
     "static/css/2.69121389.chunk.css",
-    "static/js/2.ea6e2a77.chunk.js",
-    "static/css/main.1d77dfe1.chunk.css",
-    "static/js/main.ecc3c6eb.chunk.js"
+    "static/js/2.fdb74a0b.chunk.js",
+    "static/css/main.11136939.chunk.css",
+    "static/js/main.9d47d6e9.chunk.js"
   ]
 }
